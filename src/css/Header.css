@@ -1,0 +1,16 @@
+/* material ui icon can't be styled as it is ot a component we can create with the styled-components so we can have alternate way like creating ICON component and placing the material ui component in it but it give as the problem for styling it later as i am not aware of it how to style a component in the styled component.
+
+
+Cannot do the styling.
+const Icon = styled.div`
+  & > ${SearchIcon} {
+    background-color: red;
+  }
+`;
+*/
+
+#SearchIcon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: #cd9042;
+}
